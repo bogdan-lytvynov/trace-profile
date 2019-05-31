@@ -2,9 +2,11 @@
   "name": "trace-profile",
   "version": "1.0.0",
   "description": "Tool that allows you to record time a function and all nested calls are taking.",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "npm run clean && babel src --out-dir build",
+    "clean": "rm -rf ./build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/bogdan-lytvynov/trace-profile#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
