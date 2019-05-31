@@ -1,0 +1,27 @@
+{
+  "name": "trace-profile",
+  "version": "1.0.0",
+  "description": "Tool that allows you to record time a function and all nested calls are taking.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdan-lytvynov/trace-profile.git"
+  },
+  "keywords": [
+    "profiling",
+    "tracing",
+    "js"
+  ],
+  "author": "b.kvant@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdan-lytvynov/trace-profile/issues"
+  },
+  "homepage": "https://github.com/bogdan-lytvynov/trace-profile#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
