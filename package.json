@@ -1,6 +1,6 @@
 {
   "name": "trace-profile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool that allows you to record time a function and all nested calls are taking.",
   "main": "build/index.js",
   "scripts": {
